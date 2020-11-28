@@ -1,0 +1,22 @@
+.button {
+  appearance: none;
+  background-color: var(--color-black);
+  border: none;
+  border-radius: 0;
+  color: var(--color-white);
+  font-size: 1rem;
+  font-weight: normal;
+  letter-spacing: 1.25px;
+  min-width: 96px;
+  padding: 9px 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  &:disabled {
+    opacity: 0.3;
+  }
+
+  &:not(:disabled) {
+    cursor: pointer;
+  }
+}

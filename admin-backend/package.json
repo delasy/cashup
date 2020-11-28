@@ -1,0 +1,28 @@
+{
+  "name": "@cash-up/admin-backend",
+  "version": "1.0.0",
+  "description": "Admin Back-End of CashUp",
+  "author": "Aaron Delasy <aaron@delasy.com>",
+  "homepage": "https://api.admin.cash-up.com",
+  "private": true,
+  "repository": "github:cash-up/admin-backend",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "redis": "^3.0.2",
+    "uuid": "^8.3.2",
+    "ws": "^7.4.2"
+  },
+  "devDependencies": {
+    "husky": "^4.3.7",
+    "standard": "^16.0.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test"
+    }
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "standard"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "@cash-up/admin-frontend",
+  "version": "1.0.0",
+  "description": "Admin Front-End of CashUp",
+  "author": "Aaron Delasy <aaron@delasy.com>",
+  "homepage": "https://admin.cash-up.com",
+  "private": true,
+  "repository": "github:cash-up/admin-frontend",
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "d3": "^6.3.1",
+    "next": "^10.0.5",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "screenfull": "^5.1.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^5.5.0",
+    "husky": "^4.3.7",
+    "sass": "^1.32.2",
+    "standard": "^16.0.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test"
+    }
+  },
+  "scripts": {
+    "build": "next build",
+    "dev": "next -p 8080",
+    "start": "next start -p $PORT",
+    "test": "standard"
+  }
+}

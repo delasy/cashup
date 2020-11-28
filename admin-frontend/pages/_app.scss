@@ -1,0 +1,26 @@
+:root {
+  --color-black: #000000;
+  --color-black-rgb: 0, 0, 0;
+  --color-blue: #0000FF;
+  --color-blue-rgb: 0, 0, 255;
+  --color-cinnabar: #ED3B3B;
+  --color-cinnabar-rgb: 237, 59, 59;
+  --color-green: #00FF00;
+  --color-green-rgb: 0, 255, 0;
+  --color-red: #FF0000;
+  --color-red-rgb: 255, 0, 0;
+  --color-white: #FFFFFF;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+button {
+  font-family: Arial, sans-serif;
+}

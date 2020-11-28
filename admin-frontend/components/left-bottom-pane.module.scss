@@ -1,0 +1,40 @@
+.left-bottom-pane {
+  padding: 15px;
+
+  &__header {
+    margin-bottom: 15px;
+    position: relative;
+
+    &-section {
+      align-items: baseline;
+      display: inline-flex;
+    }
+
+    &-subtitle {
+      color: var(--color-black);
+      font-size: 1.125rem;
+      font-weight: normal;
+      margin: 0;
+    }
+
+    &-body {
+      color: var(--color-black);
+      font-size: 0.75rem;
+      font-weight: normal;
+      margin: 0 0 0 5px;
+    }
+  }
+
+  &__full-screen {
+    height: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 20px;
+  }
+
+  &__chart {
+    height: calc(100% - 2.25rem);
+    width: 100%;
+  }
+}

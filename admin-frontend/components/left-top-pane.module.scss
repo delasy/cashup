@@ -1,0 +1,45 @@
+.left-top-pane {
+  padding: 15px;
+
+  &__header {
+    margin-bottom: 10px;
+    position: relative;
+
+    &-headline {
+      color: var(--color-black);
+      font-size: 1.5rem;
+      font-weight: normal;
+      margin: 0;
+    }
+
+    &-reset {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  }
+
+  &__form {
+    position: relative;
+
+    &-body {
+      width: 200px;
+    }
+  }
+
+  &__strategy {
+    margin-bottom: 10px;
+  }
+
+  &__learning-rate {
+    margin-bottom: 15px;
+  }
+
+  &__actions {
+    position: relative;
+  }
+
+  &__action:not(:first-of-type) {
+    margin-left: 10px;
+  }
+}

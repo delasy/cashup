@@ -1,0 +1,32 @@
+$icon-arrow-down: '<svg viewBox="0 0 15 9" xmlns="http://www.w3.org/2000/svg"><polygon fill="%23000000" points="0 0.707106781 0.707106781 0 7.4246212 6.71751442 14.1421356 0 14.8492424 0.707106781 7.4246212 8.13172798"></polygon></svg>';
+
+.select {
+  &__label {
+    color: var(--color-black);
+    display: block;
+    font-size: 1rem;
+    font-weight: normal;
+    margin-bottom: 5px;
+  }
+
+  &__control {
+    appearance: none;
+    background-color: transparent;
+    background-image: url('data:image/svg+xml;utf-8,' + $icon-arrow-down);
+    background-position: calc(100% - 7px) center;
+    background-repeat: no-repeat;
+    background-size: 15px 9px;
+    border: 1px solid var(--color-black);
+    border-radius: 0;
+    color: var(--color-black);
+    font-size: 1rem;
+    font-weight: normal;
+    min-width: 200px;
+    padding: 8px 27px 8px 6px;
+    width: 100%;
+
+    &:disabled {
+      opacity: 0.3;
+    }
+  }
+}
